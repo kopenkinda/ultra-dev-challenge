@@ -1,11 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import "./index.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import { AuthProvider } from './context/Auth';
+import { MessageProvider } from './context/Messages';
+import { NotificationProvider } from './context/Notification';
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AuthProvider>
+      <NotificationProvider delay={2000}>
+        <MessageProvider>
+          <App />
+        </MessageProvider>
+      </NotificationProvider>
+    </AuthProvider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );
