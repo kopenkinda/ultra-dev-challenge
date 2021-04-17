@@ -17,3 +17,8 @@ During 4 hours, you will have to develop an interface (front) of the social netw
 No CSS library allowed, no back. The rest is up to you and your innate talent to create from scratch;) <br />
 At the end of the challenge, the winner wins a JS & Co membership for the year 2021, with all the advantages that this entails. <br />
 Ready to make history?
+
+---
+
+> <b>Note</b><br/>
+> Je devais partir à 17h20, techniquement je n'avais que 3 heures pour le faire. :P
